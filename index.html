@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+        </style>
+
+    <!-- main css -->
+     <link rel="stylesheet" href="style.css">
+
+     <title>Pixel Art</title>
+</head>
+<body>
+
+    <header>
+        <h1>Pixelart</h1>
+    </header>
+
+    <main>
+            <aside>
+                <span class="option-title">Tamanho</span> <!-- Aqui modifica o tamanho do border -->
+                <input type="number" class="input-sise" min="4" value="10">
+
+                <span class="option-title">Cor</span> 
+                <input type="color" class="input-color">
+
+                <span class="option-title">Cores usadas</span> <!-- Aqui é um seletor de cores mais usadas-->
+                <section class="used-color"></section>
+
+                <button class="button-save">Baixar imagem</button> <!-- Aqui e um butao para baixar a imagem-->
+            </aside>
+
+            <section class="canvas"></section>
+            <div class="resize"></div>
+    </main>
+
+   <script src="script.js"></script> 
+</body>
+</html>
